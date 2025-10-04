@@ -57,11 +57,36 @@ Use the requirements.txt file to install all necessary libraries:
 
     pip install -r requirements.txt
 
-**3. Execute the Pipeline:**
-Run the Python files sequentially to regenerate the analysis, models, and results:
+**3. Execution and Reproducibility**
 
-    python data_cleaning.py
-    python eda_analysis.py
-    python feature_engineering.py
-    python modeling_evaluation.py
-    python communication_report.py
+Since this project is packaged as a series of sequential Jupyter Notebooks (`.ipynb`), the analysis is best viewed and executed interactively.
+
+#### A. Setup (Required)
+
+1.  **Clone the repository** to your local machine.
+    ```bash
+    git clone https://github.com/abhisargupta85/telco-churn-prediction.git
+    cd telco-churn-prediction
+    ```
+2.  **Install dependencies** using the provided `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+#### B. Running the Pipeline
+
+1.  **Start Jupyter:** Launch the Jupyter environment in your project folder.
+    ```bash
+    jupyter notebook
+    ```
+2.  **Execute Sequentially:** Open the notebooks and run all cells **in the following order**, as each stage saves data artifacts required by the next:
+    1.  `data_cleaning.ipynb`
+    2.  `eda_analysis.ipynb`
+    3.  `feature_engineering.ipynb`
+    4.  `modelling_evaluation.ipynb`
+    5.  `communication_report.ipynb`
+
+---
+
+
+The notebooks **in the correct order** because of the data dependency (the output CSVs from one file are the input CSVs for the next).
