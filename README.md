@@ -5,6 +5,8 @@ This project demonstrates a full, professional data science workflow applied to 
 
 The objective was to leverage historical customer data to build a robust machine learning model capable of identifying customers at high risk of leaving. This predictive capability allows the retention team to execute targeted, cost-effective interventions.  
 
+**Dataset Source:** https://www.kaggle.com/code/danishmubashar/telco-customer-churn-99-acc
+
 ---
 
 ## Key Results and Business Insights  
@@ -90,3 +92,5 @@ Since this project is packaged as a series of sequential Jupyter Notebooks (`.ip
 
 
 The notebooks **in the correct order** because of the data dependency (the output CSVs from one file are the input CSVs for the next).
+
+**NOTE:** This project uses publicly available data for educational and analytical purposes. No personal data is stored or processed beyond what is publicly accessible.
