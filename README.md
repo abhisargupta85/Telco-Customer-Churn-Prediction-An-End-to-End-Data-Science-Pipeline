@@ -1,4 +1,4 @@
-# Telco Customer Churn Prediction: An End-to-End Data Science Pipeline  
+# Telco Customer Churn Prediction: An End-to-End Data Pipeline  
 
 ## Project Overview  
 This project demonstrates a full, professional data science workflow applied to a critical business problem: **predicting customer churn** for a telecommunications company.  
