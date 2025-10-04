@@ -65,7 +65,7 @@ Since this project is packaged as a series of sequential Jupyter Notebooks (`.ip
 
 1.  **Clone the repository** to your local machine.
     ```bash
-    git clone https://github.com/abhisargupta85/telco-churn-prediction.git
+    git clone https://github.com/abhisargupta85/Telco-Customer-Churn-Prediction-An-End-to-End-Data-Pipeline
     cd telco-churn-prediction
     ```
 2.  **Install dependencies** using the provided `requirements.txt` file:
